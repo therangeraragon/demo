@@ -8,7 +8,7 @@ RUN apk add maven
 
 RUN mvn clean install
 
-COPY usr/src/app/demo/target/demo-0.0.1-SNAPSHOT.jar .
+COPY usr/src/app/target/demo-0.0.1-SNAPSHOT.jar .
 
 EXPOSE 8081
 
